@@ -7,8 +7,8 @@ Usage: run_juicer_3ddna.sh <-i genome.fa> <-c hic path> [-p juicer path] [-m res
                           -p          juicer path
                           -c          hic path
                           -d          3ddna path
-                          -m          Restriction enzyme cleavage types：HindIII | DpnII | MboI | NcoI     [ Default: MboI ]
-                          -j          Threads                                      [ Default: 40 ]
+                          -m          Restriction enzyme cleavage types：HindIII|DpnII|MboI|NcoI [ Default: MboI ]
+                          -j          Threads   [ Default: 40 ]
                           Note: The HIC files must have the suffix "*_R*.fastq*"
 ```
                           
