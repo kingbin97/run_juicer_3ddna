@@ -1,4 +1,12 @@
 # run_juicer_3ddna
+Usage: run_juicer_3ddna.sh <-i genome.fa> <-c hic path> [-p juicer path] [-m restriction enzyme] [-d 3ddna path] [-j thread]\e[0m"
+                            -i          genome
+                          	-p          juicer path
+                          	-c          hic path
+                          	-d          3ddna path
+                          	-m          Restriction enzyme cleavage types：HindIII | DpnII | MboI | NcoI     [ Default: MboI ]
+                          	-j          Threads                                      [ Default: 40 ]
+                          	 Note: The HIC files must have the suffix "*_R*.fastq*"
 # piplines with genome assembly by juicer and 3ddna.
 # You need to install Juicer and 3D-DNA for this bioinformatics workflow. If you have any questions or need assistance with the installation process, please let me know.
 # Juicer and 3D-DNA can be installed in the directory `/opt/biosoft` or Please use the following command: 
