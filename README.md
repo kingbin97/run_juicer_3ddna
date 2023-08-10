@@ -21,6 +21,6 @@ Juicer and 3D-DNA can be installed in the directory <b> /opt/biosoft </b> or Ple
 ```
 sed -i '/$path_Juicer/\/opt\/biosoft\/juicer-1.6/;/$path_3ddna/\/opt\/biosoft\/3d-dna-201008/'  run_juicer_3ddna.sh
 ```
-Note that you need to use "\" to escape the slashes in the command.  <br>
+Note that you need to use "\\" to escape the slashes in the command.  <br>
 Juicer：https://github.com/aidenlab/juicer <br>
 3D-DNA: https://github.com/aidenlab/3d-dna <br>
