@@ -19,7 +19,7 @@ You need to install Juicer and 3D-DNA for this bioinformatics workflow. If you h
 Juicer and 3D-DNA can be installed in the directory <b> /opt/biosoft </b> or Please use the following command:  <br>
 
 ```
-sed -i '/$path_Juicer/\/opt\/biosoft\/juicer-1.6/;/$path_3ddna/\/opt\/biosoft\/3d-dna-201008/'  run_juicer_3ddna.sh
+sed -i 's/$path_Juicer/\/opt\/biosoft\/juicer-1.6/; s/$path_3ddna/\/opt\/biosoft\/3d-dna-201008/'  run_juicer_3ddna.sh
 ```
 Note that you need to use "\\" to escape the slashes in the command.  <br>
 Juicer：https://github.com/aidenlab/juicer <br>
